@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Notepad</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+
+  </head>
+  <body>
+    <!--menu-->
+  <nav class="navMenu">
+    <a href="makeup.html">Home</a>
+    <a href="index.html">Notepad</a>
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    <a href="#" onclick="self.close();">Exit</a>
+    <div class="dot"></div>
+  </nav>
+  <!--menu end-->
+    <div class="blog_post">
+      <div class="img_pod">
+        <img src="https://i.pinimg.com/564x/63/31/bf/6331bf462caa761dc2ac97d9b1293075.jpg" alt="random image">
+      </div>
+      <div class="text">
+      <div class="container_copy">
+        <center>
+        <h1>——— Write It Down ———</h1>
+        <div id="display">We wanted to hear from you, so please list your top five favourite makeup brands and send them to us!</div>
+        </div>
+      </center>
+      <form>
+        <div class="form-group">
+          <label>Topic</label>
+          <input id="fileName" type="text" class="form-control" placeholder="yourname.txt">
+        </div>
+
+        <div class="form-group">
+          <label>Content</label>
+          <textarea id="fileContents" class="form-control" rows="5" ></textarea>
+        </div>
+      <button id="btnCreate" class="btn btn-default">Save</button>
+      <button id="btnRead" class="btn btn-default">Open</button>
+      <button id="btnUpdate" class="btn btn-default">Update</button>
+      <button id="btnDelete" class="btn btn-default">Delete</button>
+      </div>
+    </form>
+    <script src="main.js">
+      
+      
+    </script>
+  </body>
+</html>
